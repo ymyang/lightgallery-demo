@@ -65,9 +65,9 @@
             }
         },
         mounted () {
-            // const el = document.getElementById('lightgallery')
+            const el = document.getElementById('lightgallery')
             // const el = this.$refs.lightgallery
-            const el = this.$el
+            // const el = this.$el
             console.log('init lightgallery')
             Lightgallery(el)
         }
